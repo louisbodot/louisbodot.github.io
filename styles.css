@@ -3,7 +3,7 @@
 /* Style the navigation menu */
 nav {
     width: 100%; /* Set the width to 100% */
-    /*background-color: #f0f0f0; /* Add background color */
+    background-color: #f0f0f0; /* Add background color */
     display: flex; /* Use flexbox to manage layout */
 }
 
