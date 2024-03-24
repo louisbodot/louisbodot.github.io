@@ -1,0 +1,21 @@
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Display menu items horizontally */
+    margin-right: 20px; /* Add some spacing between menu items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Set link color */
+    font-weight: bold; /* Make links bold */
+}
+
+nav ul li a:hover {
+    color: #ff6600; /* Change link color on hover */
+}
