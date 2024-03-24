@@ -1,21 +1,30 @@
+/* styles.css */
+
 /* Style the navigation menu */
-nav ul {
-    list-style-type: none; /* Remove bullet points */
-    margin: 0;
-    padding: 0;
+.nav-links {
+    list-style-type: none; /* Remove default list bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
 
-nav ul li {
+.nav-links li {
     display: inline; /* Display menu items horizontally */
-    margin-right: 20px; /* Add some spacing between menu items */
 }
 
-nav ul li a {
+.nav-links li a {
     text-decoration: none; /* Remove underline from links */
     color: #333; /* Set link color */
     font-weight: bold; /* Make links bold */
+    padding: 10px 20px; /* Add padding to make links clickable */
 }
 
-nav ul li a:hover {
-    color: #ff6600; /* Change link color on hover */
+/* Style Computer Sciences link */
+.nav-links li:first-child a {
+    background-color: yellow; /* Set background color for Computer Sciences link */
+}
+
+/* Style Pastry link */
+.nav-links li:last-child a {
+    background-color: blue; /* Set background color for Pastry link */
+    color: white; /* Change text color for better visibility */
 }
