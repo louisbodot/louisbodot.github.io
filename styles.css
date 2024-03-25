@@ -1,9 +1,18 @@
 /* styles.css */
 
+/*Define colors*/
+:root {
+    --borderc: #ddd; /* Primary color */
+    --csc: #38cffd; /* Secondary color */
+	--lcsc: #6ad3f3;
+    --pac: #f08700; /* Background color */
+	--lpac: #eaa142; 
+    /*--text-color: #000; /* Text color */
+}
 /* Style the navigation menu */
 nav {
     width: 100%; /* Set the width to 100% */
-    background-color: #f0f0f0; /* Add background color */
+    background-color: var(--borderc); /* Add background color */
     display: flex; /* Use flexbox to manage layout */
 }
 
@@ -29,17 +38,21 @@ nav {
 
 /* Style Computer Sciences link */
 .nav-links li:first-child a {
-    background-color: yellow;
+    background-color: var(--csc);
+	color: black;
 }
 
 /* Style Pastry link */
 .nav-links li:last-child a {
-    background-color: blue;
+    background-color: var(--pac);
     color: white;
 }
 
 main {
     text-align: left; /* Align text to the left */
+	width: 70%; /* Set the width to two-thirds of the viewport width */
+    margin: 0 auto; /* center the block */
+	background-color: white;
 }
 
 /* Center images within the main section */
@@ -51,4 +64,19 @@ main img {
 /* Justify text within the main section */
 main p {
     text-align: justify; /* Justify text */
+}
+
+main h2 {
+	text-align : center;
+	font-size : 40px;
+	font-family : serif;
+}
+
+footer{
+	margin-left : 20px;
+}
+
+body {
+    background-color: var(--borderc);
+	margin : 0;
 }
