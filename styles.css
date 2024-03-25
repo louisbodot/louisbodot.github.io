@@ -4,9 +4,9 @@
 :root {
     --borderc: #ddd; /* Primary color */
     --csc: #38cffd; /* Secondary color */
-	--lcsc: #6ad3f3;
+	--lcsc: #a5e9fe;
     --pac: #f08700; /* Background color */
-	--lpac: #eaa142; 
+	--lpac: #f8c380; 
     /*--text-color: #000; /* Text color */
 }
 /* Style the navigation menu */
@@ -50,8 +50,9 @@ nav {
 
 main {
     text-align: left; /* Align text to the left */
-	width: 70%; /* Set the width to two-thirds of the viewport width */
+	width: 75%; /* Set the width to two-thirds of the viewport width */
     margin: 0 auto; /* center the block */
+	padding: 15px; /*create margin for the text*/
 	background-color: white;
 }
 
@@ -73,7 +74,10 @@ main h2 {
 }
 
 footer{
-	margin-left : 20px;
+	background-color: var(--borderc);
+	padding-left : 20px;
+	padding-bottom: 15px;
+	/*padding-top: 10px;*/
 }
 
 body {
