@@ -14,9 +14,8 @@
   <!-- Header / Navigation -->
   <header class="fixed top-0 w-full bg-cream shadow z-50">
     <nav class="max-w-6xl mx-auto flex justify-between items-center p-4">
-      <div class="text-xl font-bold pl-3" style="font-family: var(--font-playfair);">LB</div>
+      <div class="text-xl font-bold pl-3" style="font-family: var(--font-playfair);"><a href="#about">LB</a></div>
       <ul class="flex space-x-4 text-m font-medium text-mint">
-        <li><a href="#about" class="hover:underline">Présentation</a></li>
         <li><a href="#theme1" class="hover:underline">Thème 1</a></li>
         <li><a href="#theme2" class="hover:underline">Thème 2</a></li>
         <li><a href="#theme3" class="hover:underline">Thème 3</a></li>
@@ -26,8 +25,7 @@
   </header>
 
   <main class="pt-24 space-y-32">
-
-    <section id="about" class="max-w-4xl mx-auto px-4 py-16 bg-orangeSoft rounded-xl">
+    <!-- <section id="about" class="max-w-4xl mx-auto px-4 py-16 bg-orangeSoft rounded-xl">
       <div class="text-center mb-12">
         <h2 class="text-4xl font-bold mb-2 text-dbrown font-playfair">
           Portfolio
@@ -60,7 +58,7 @@
         <span class="text-rose">rose</span>
         <span class="text-mint">mint</span>
       </div>
-    </div>
+    </div> -->
 
     <!-- About Me -->
     <section id="about" class="max-w-4xl mx-auto px-4 text-justify">
@@ -81,10 +79,117 @@ beaucoup d'opportunités d'apprendre de nouvelles techniques et d'en
 approfondir d'autres.</p>
           <p> Pour la suite, j'aimerai explorer le domaine du dessert assiette, et partir travailler quelques temps à l'étranger!</p>
         </div>
-        <img src="Portfolio%20-%20P%C3%A2tisserie_fichiers/Pres-portrait.webp" alt="Portrait de Louis Bodot (le pâtissier)" class="h-full object-contain rounded-lg lg:w-3/5 w-full">
+        <img src="Portfolio%20-%20P%C3%A2tisserie_fichiers/Pres-portrait.webp" alt="Portrait de Louis Bodot (le pâtissier)" class="h-full object-contain rounded-lg lg:w-2/5 w-full">
       </div>
     
-    </section>
+	<div class="flex flex-col lg:flex-row lg:flex-row-reverse gap-8 items-center mt-8 py-4">
+		<div class="lg:w-3/5 w-full  text-lg">
+			<p> Je suis cette année apprenti dans la pâtisserie Chez Grégoire à 
+Lyon. Sa spécialité est de proposer une gamme uniquement sans gluten et 
+sans lactose très diverses, avec notamment des choux, des entremets, des
+ tartes et des gâteaux de voyage avec des recettes adaptées à ce régime 
+alimentaire. La gamme évolue tout au long de l'année pour suivre la 
+saisonnalité, avec notamment les choux du mois et un entremet végan 
+changeant régulièrement. </p>
+		</div>
+		<div class="lg:w-2/5 w-full">
+            <!-- Swiper -->
+            <div class="swiper mySwiper max-w-[400px] h-[400px] rounded-lg relative swiper-cards swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress" style="--swiper-navigation-color: var(--color-orangeSoft);">
+              <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(38.2585px);" id="swiper-wrapper-16fff7a2cf412c92" aria-live="polite">
+                <div class="swiper-slide w-auto flex justify-center items-center px-4 swiper-slide-visible swiper-slide-fully-visible swiper-slide-active" role="group" aria-label="1 / 3" style="transition-duration: 0ms; z-index: 3; transform: translate3d(0px, 0px, 0px) rotateZ(0deg) scale(1);">
+                  <img src="Portfolio%20-%20P%C3%A2tisserie_fichiers/Pres-ch1.jpg" alt="Chou du mois carotte passion" class="h-full object-contain rounded-lg">
+                </div>
+                <div class="swiper-slide w-auto flex justify-center items-center px-4 swiper-slide-visible swiper-slide-next" role="group" aria-label="2 / 3" style="transition-duration: 0ms; z-index: 2; transform: translate3d(calc(7.23353% - 256px), 0px, -99.7467px) rotateZ(1.99493deg) scale(1);">
+                  <img src="Portfolio%20-%20P%C3%A2tisserie_fichiers/Pres-ch2.jpg" alt="Chou du mois chocolat vanille" class="h-full object-contain rounded-lg">
+                </div>
+                <div class="swiper-slide w-auto flex justify-center items-center px-4" role="group" aria-label="3 / 3" style="transition-duration: 0ms; z-index: -1; transform: translate3d(calc(19.4759% - 513px), 0px, -375.962px) rotateZ(7.51924deg) scale(1);">
+                  <img src="Portfolio%20-%20P%C3%A2tisserie_fichiers/Pres-ch3.jpg" alt="Chou du mois" class="h-full object-contain rounded-lg">
+                </div>
+              </div>
+               <!-- Custom Arrows -->
+              <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-16fff7a2cf412c92" aria-disabled="true"></div>
+              <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-16fff7a2cf412c92" aria-disabled="false"></div>
+            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+          </div>
+	</div>
+	<div class="flex flex-col lg:flex-row gap-8 items-center mt-8 py-4">
+		<div class="lg:w-3/5 w-full  text-lg">
+			<p> Ces produits sont proposés dans deux boutiques, l’une dans une 
+zone plutôt touristique, entre la place des Terreaux et le Vieux Lyon, 
+et l’autre sur le lieu de production, dans une zone plus résidentielle.</p>
+		</div>
+		<img src="Portfolio%20-%20P%C3%A2tisserie_fichiers/Pres-Greg.webp" alt="Grégoire et sa pâtisserie" class="h-full object-contain rounded-lg lg:w-2/5 w-full">
+	</div>
+<div class="flex flex-col lg:flex-row lg:flex-row-reverse gap-8 items-center mt-8 py-4">
+		<div class="lg:w-3/5 w-full  text-lg">
+			<p> Je suis cette année apprenti dans la pâtisserie Chez Grégoire à 
+Lyon. Sa spécialité est de proposer une gamme uniquement sans gluten et 
+sans lactose très diverses, avec notamment des choux, des entremets, des
+ tartes et des gâteaux de voyage avec des recettes adaptées à ce régime 
+alimentaire. La gamme évolue tout au long de l'année pour suivre la 
+saisonnalité, avec notamment les choux du mois et un entremet végan 
+changeant régulièrement. </p>
+		</div>
+		<div class="lg:w-2/5 w-full">
+            <!-- Swiper -->
+            <div class="swiper mySwiper max-w-[400px] h-[400px] rounded-lg relative swiper-cards swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress" style="--swiper-navigation-color: var(--color-orangeSoft);">
+              <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(38.2585px);" id="swiper-wrapper-fd3b6aad107ea8f77" aria-live="polite">
+                <div class="swiper-slide w-auto flex justify-center items-center px-4 swiper-slide-visible swiper-slide-fully-visible swiper-slide-active" role="group" aria-label="1 / 3" style="transition-duration: 0ms; z-index: 3; transform: translate3d(0px, 0px, 0px) rotateZ(0deg) scale(1);">
+                  <img src="Portfolio%20-%20P%C3%A2tisserie_fichiers/Pres-ch1.jpg" alt="Chou du mois carotte passion" class="h-full object-contain rounded-lg">
+                </div>
+                <div class="swiper-slide w-auto flex justify-center items-center px-4 swiper-slide-visible swiper-slide-next" role="group" aria-label="2 / 3" style="transition-duration: 0ms; z-index: 2; transform: translate3d(calc(7.23353% - 256px), 0px, -99.7467px) rotateZ(1.99493deg) scale(1);">
+                  <img src="Portfolio%20-%20P%C3%A2tisserie_fichiers/Pres-ch2.jpg" alt="Chou du mois chocolat vanille" class="h-full object-contain rounded-lg">
+                </div>
+                <div class="swiper-slide w-auto flex justify-center items-center px-4" role="group" aria-label="3 / 3" style="transition-duration: 0ms; z-index: -1; transform: translate3d(calc(19.4759% - 513px), 0px, -375.962px) rotateZ(7.51924deg) scale(1);">
+                  <img src="Portfolio%20-%20P%C3%A2tisserie_fichiers/Pres-ch3.jpg" alt="Chou du mois" class="h-full object-contain rounded-lg">
+                </div>
+              </div>
+               <!-- Custom Arrows -->
+              <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-fd3b6aad107ea8f77" aria-disabled="true"></div>
+              <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-fd3b6aad107ea8f77" aria-disabled="false"></div>
+            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+          </div>
+	</div>
+	<div class="flex flex-col lg:flex-row lg:flex-row-reverse gap-8 items-center mt-8 py-4">
+		<div class="lg:w-1/2 w-full  text-lg">
+			<p> La clientèle est donc composée de plusieurs cohortes : des 
+clients avec un régime sans gluten, sans lactose ou vegan, domaine sur 
+lequel la concurrence est faible sur la zone lyonnaise, des clients de 
+passage, liés au tourisme, et une clientèle locale habituée.
+On peut donc évaluer plusieurs zones de chalandise grâce au site 
+https://www.smappen.fr/app/ :</p>
+			<ul class="list-disc list-inside">
+				<li>la clientèle de quartier : à moins de 5 minutes à pied de chacun
+ des magasins, estimée à 6400 et 5600 habitants pour respectivement la 
+boutique de Terreaux et celle de Croix-Rousse.</li>
+				<li>la clientèle de passage : Lyon est une ville touristique, avec 
+plus de 9,4 millions de nuitées en 2023. Chaque année en Décembre, la 
+fête des Lumières, ramène plus d’un millions de touristes dans les rues 
+de Lyon sur une période de 5 jours. La boutique de Terreaux est située 
+sur un axe passant entre la place des Terreaux et la gare de Saint-Paul,
+ et bien qu’il soit compliqué de quantifier ce passage, celui-ci 
+explique sûrement la différence de vente entre les deux boutiques (la 
+boutique de Croix-Rousse vendant moitié moins de gâteaux). </li>
+				<li>la clientèle avec un régime spécifique : 700 000 habitants 
+habitent à moins de 30 minutes de transport en commun de la boutique de 
+Terreaux. Selon des statistiques récentes environ 0,5 à 1% de la 
+population française est allergique au gluten, et près de 18% des 
+adultes sont intolérants au lactose. Cela représente donc une clientèle 
+de plusieurs dizaines de milliers de personnes, avec une faible 
+concurrence sur le domaine (une seule autre pâtisserie concurrente 
+entièrement sans gluten et sans lactose, quelques unes avec des options 
+sans gluten)</li>
+				
+			</ul>
+
+		</div>
+		<div class="lg:w-1/2 w-full flex flex-col gap-8">
+			<div style="display: flex; flex-direction: column; align-items: center;"> <iframe class="w-full" title="Smappen - Zone de chalandise" width="800" height="400" src="Portfolio%20-%20P%C3%A2tisserie_fichiers/Y5JR_8mjgBCpJALV.htm" frameborder="0" allowfullscreen=""> </iframe> <div style="text-align: center">Isochrone de 5 minutes à pieds </div> </div>
+			<div style="display: flex; flex-direction: column; align-items: center;"> <iframe class="w-full" title="Smappen - Zone de chalandise large" width="800" height="400" src="Portfolio%20-%20P%C3%A2tisserie_fichiers/AmLRiJNEhJmqGKI6.htm" frameborder="0" allowfullscreen=""> </iframe> <div style="text-align: center">Isochrone de 30 minutes en transport en commun</div> </div>
+
+	</div>
+
+    </div></section>
 
     <!-- Sep -->
     <div class="flex justify-center space-x-2 my-12 ">
@@ -119,7 +224,8 @@ inspirée du départ de la fusée et des gravures illustratives de <cite class="
           <div class="lg:w-2/5 w-full">
             <!-- Swiper -->
             <div class="swiper mySwiper max-w-[400px] h-[400px] rounded-lg relative swiper-cards swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress" style="--swiper-navigation-color: var(--color-orangeSoft);">
-              <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(7.6415px);" id="swiper-wrapper-77103d99ee520a98e" aria-live="polite">
+              <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(7.6415px);" id="swiper-wrapper-56d14aa77bd3c49b" aria-live="polite">
+
                 <div class="swiper-slide w-auto flex justify-center items-center px-4 swiper-slide-visible swiper-slide-fully-visible swiper-slide-active" role="group" aria-label="1 / 3" style="transition-duration: 0ms; z-index: 3; transform: translate3d(0px, 0px, 0px) rotateZ(0deg) scale(1);">
                   <img src="Portfolio%20-%20P%C3%A2tisserie_fichiers/JV-portrait.jpg" alt="Jules Verne portrait" class="h-full object-contain rounded-lg">
                 </div>
@@ -131,8 +237,8 @@ inspirée du départ de la fusée et des gravures illustratives de <cite class="
                 </div>
               </div>
                <!-- Custom Arrows -->
-              <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-77103d99ee520a98e" aria-disabled="true"></div>
-              <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-77103d99ee520a98e" aria-disabled="false"></div>
+              <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-56d14aa77bd3c49b" aria-disabled="true"></div>
+              <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-56d14aa77bd3c49b" aria-disabled="false"></div>
             <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
           </div>
         </div>
@@ -143,7 +249,8 @@ inspirée du départ de la fusée et des gravures illustratives de <cite class="
         <div class="lg:w-2/5 w-full">
           <!-- Swiper -->
           <div class="swiper mySwiper max-w-[400px] h-[400px] rounded-lg relative swiper-cards swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress" style="--swiper-navigation-color: var(--color-orangeSoft);">
-            <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(-0.1835px);" id="swiper-wrapper-4725e2e1016dbda910" aria-live="polite">
+            <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(-0.1835px);" id="swiper-wrapper-26be87511068067910" aria-live="polite">
+
               <div class="swiper-slide w-auto flex justify-center items-center px-4 swiper-slide-visible swiper-slide-active" role="group" aria-label="1 / 2" style="transition-duration: 0ms; z-index: 2; transform: translate3d(0px, 0px, 0px) rotateZ(0deg) scale(1);">
                 <img src="Portfolio%20-%20P%C3%A2tisserie_fichiers/JV-Careme.jpg" alt="Fusée" class="h-full object-contain rounded-lg">
               </div>
@@ -152,8 +259,8 @@ inspirée du départ de la fusée et des gravures illustratives de <cite class="
               </div>
             </div>
              <!-- Custom Arrows -->
-            <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-4725e2e1016dbda910" aria-disabled="true"></div>
-            <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-4725e2e1016dbda910" aria-disabled="false"></div>
+            <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-26be87511068067910" aria-disabled="true"></div>
+            <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-26be87511068067910" aria-disabled="false"></div>
           <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
         </div>
         <p class="text-lg lg:w-3/5 w-full">Le croquembouche, aussi 
@@ -182,7 +289,7 @@ d’inspiration.</p>
         <div class="lg:w-2/5 w-full">
           <!-- Swiper -->
           <div class="swiper mySwiper max-w-[400px] h-[400px] rounded-lg relative swiper-cards swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress" style="--swiper-navigation-color: var(--color-orangeSoft);">
-            <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(10.3415px);" id="swiper-wrapper-3c82100ed6a44eb98" aria-live="polite">
+            <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(10.3415px);" id="swiper-wrapper-1f91d64f02421439" aria-live="polite">
               <div class="swiper-slide w-auto flex justify-center items-center px-4 swiper-slide-visible swiper-slide-fully-visible swiper-slide-active" role="group" aria-label="1 / 3" style="transition-duration: 0ms; z-index: 3; transform: translate3d(0px, 0px, 0px) rotateZ(0deg) scale(1);">
                 <img src="Portfolio%20-%20P%C3%A2tisserie_fichiers/JV-Nemo.jpg" alt="Gravure Captaine Némo" class="h-full object-contain rounded-lg">
               </div>
@@ -194,8 +301,8 @@ d’inspiration.</p>
               </div>
             </div>
             <!-- Custom Arrows -->
-            <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-3c82100ed6a44eb98" aria-disabled="true"></div>
-            <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-3c82100ed6a44eb98" aria-disabled="false"></div>
+            <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-1f91d64f02421439" aria-disabled="true"></div>
+            <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-1f91d64f02421439" aria-disabled="false"></div>
           <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
         </div>
       </div>
@@ -204,7 +311,7 @@ d’inspiration.</p>
           <div class="lg:w-2/5 w-full">
             <!-- Swiper -->
             <div class="swiper mySwiper max-w-[280px] h-[280px] rounded-lg relative swiper-cards swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress" style="--swiper-navigation-color: var(--color-orangeSoft);">
-              <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(4.125px);" id="swiper-wrapper-22b5105b9f31744f9" aria-live="polite">
+              <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(4.125px);" id="swiper-wrapper-8c9654359b463bfb" aria-live="polite">
                 <div class="swiper-slide w-auto flex justify-center items-center px-4 swiper-slide-visible swiper-slide-fully-visible swiper-slide-active" role="group" aria-label="1 / 4" style="transition-duration: 0ms; z-index: 4; transform: translate3d(0px, 0px, 0px) rotateZ(0deg) scale(1);">
                   <img src="Portfolio%20-%20P%C3%A2tisserie_fichiers/JV-croquis-1.jpg" alt="Croquis 1" class="h-full object-contain rounded-lg">
                 </div>
@@ -219,8 +326,8 @@ d’inspiration.</p>
                 </div>
               </div>
               <!-- Custom Arrows -->
-              <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-22b5105b9f31744f9" aria-disabled="true"></div>
-              <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-22b5105b9f31744f9" aria-disabled="false"></div>
+              <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-8c9654359b463bfb" aria-disabled="true"></div>
+              <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-8c9654359b463bfb" aria-disabled="false"></div>
             <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
           </div>
           <p class="text-lg lg:w-3/5 w-full">J’ai ensuite réalisé 
@@ -409,7 +516,7 @@ ses mandibules n’avaient aucune prise.
         </p><div class="lg:w-3/5 w-full">
           <!-- Swiper -->
           <div class="swiper mySwiper max-w-[400px] h-[400px] rounded-lg relative swiper-cards swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress" style="--swiper-navigation-color: var(--color-orangeSoft);">
-            <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(49.4165px);" id="swiper-wrapper-766464fef233e564" aria-live="polite">
+            <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(49.4165px);" id="swiper-wrapper-0201326fdfe8d529" aria-live="polite">
               <div class="swiper-slide w-auto flex justify-center items-center px-4 swiper-slide-visible swiper-slide-fully-visible swiper-slide-active" role="group" aria-label="1 / 3" style="transition-duration: 0ms; z-index: 3; transform: translate3d(0px, 0px, 0px) rotateZ(0deg) scale(1);">
                 <img src="Portfolio%20-%20P%C3%A2tisserie_fichiers/JV-PM3.jpg" alt="Pièce montée, version finale" class="h-full object-contain rounded-lg">
               </div>
@@ -421,8 +528,8 @@ ses mandibules n’avaient aucune prise.
               </div>
             </div>
             <!-- Custom Arrows -->
-            <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-766464fef233e564" aria-disabled="true"></div>
-            <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-766464fef233e564" aria-disabled="false"></div>
+            <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-0201326fdfe8d529" aria-disabled="true"></div>
+            <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-0201326fdfe8d529" aria-disabled="false"></div>
           <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
         </div>
       </div>  
@@ -434,14 +541,14 @@ ses mandibules n’avaient aucune prise.
       <div class="lg:w-1/2 w-full">
         <!-- Swiper -->
         <div class="swiper mySwiper max-w-[280px] h-[280px] rounded-lg relative swiper-cards swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress" style="--swiper-navigation-color: var(--color-orangeSoft);">
-          <div class="swiper-wrapper" style="transition-duration: 0ms; transition-delay: 0ms; transform: translateX(-86px);" id="swiper-wrapper-105aa05eef24e1141" aria-live="polite">
+          <div class="swiper-wrapper" style="transition-duration: 0ms; transition-delay: 0ms; transform: translateX(-86px);" id="swiper-wrapper-d1bbb572ac6110096" aria-live="polite">
             <div class="swiper-slide w-auto flex justify-center items-center px-4 swiper-slide-visible swiper-slide-active" role="group" aria-label="1 / 1" style="transition-duration: 0ms; z-index: 1; transform: translate3d(0px, 0px, 0px) rotateZ(0deg) scale(1);">
               <img src="Portfolio%20-%20P%C3%A2tisserie_fichiers/JV-challenge.jpg" alt="Croquis 1" class="h-full object-contain rounded-lg">
             </div>
           </div>
           <!-- Custom Arrows -->
-          <div class="swiper-button-prev text-orangeSoft swiper-button-disabled swiper-button-lock" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-105aa05eef24e1141" aria-disabled="true"></div>
-          <div class="swiper-button-next text-orangeSoft swiper-button-disabled swiper-button-lock" tabindex="-1" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-105aa05eef24e1141" aria-disabled="true"></div>
+          <div class="swiper-button-prev text-orangeSoft swiper-button-disabled swiper-button-lock" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-d1bbb572ac6110096" aria-disabled="true"></div>
+          <div class="swiper-button-next text-orangeSoft swiper-button-disabled swiper-button-lock" tabindex="-1" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-d1bbb572ac6110096" aria-disabled="true"></div>
         <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
       </div>
       <div class="text-lg lg:w-1/2 w-full">
@@ -472,7 +579,7 @@ pratiques du medium.</p>
         <div class="lg:w-1/2 w-full">
           <!-- Swiper -->
           <div class="swiper mySwiper max-w-[400px] h-[400px] rounded-lg relative swiper-cards swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress" style="--swiper-navigation-color: var(--color-orangeSoft);">
-            <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(38.4415px);" id="swiper-wrapper-be64d510b27da55b0" aria-live="polite">
+            <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(38.4415px);" id="swiper-wrapper-9b75eb93b109c71dd" aria-live="polite">
               <div class="swiper-slide w-auto flex justify-center items-center px-4 swiper-slide-visible swiper-slide-fully-visible swiper-slide-active" role="group" aria-label="1 / 5" style="transition-duration: 0ms; z-index: 5; transform: translate3d(0px, 0px, 0px) rotateZ(0deg) scale(1);">
                 <img src="Portfolio%20-%20P%C3%A2tisserie_fichiers/JV-FuseeCover.png" alt="Gravure Fusée 1" class="h-full object-contain rounded-lg">
               </div>
@@ -491,8 +598,8 @@ pratiques du medium.</p>
               
             </div>
             <!-- Custom Arrows -->
-            <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-be64d510b27da55b0" aria-disabled="true"></div>
-            <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-be64d510b27da55b0" aria-disabled="false"></div>
+            <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-9b75eb93b109c71dd" aria-disabled="true"></div>
+            <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-9b75eb93b109c71dd" aria-disabled="false"></div>
           <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
         </div>
       </div>
@@ -501,7 +608,7 @@ pratiques du medium.</p>
         <div class="lg:w-1/2 w-full">
           <!-- Swiper -->
           <div class="swiper mySwiper max-w-[400px] h-[400px] rounded-lg relative swiper-cards swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress" style="--swiper-navigation-color: var(--color-orangeSoft);">
-            <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(40.1835px);" id="swiper-wrapper-f5f7e59581df432e" aria-live="polite">
+            <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(40.1835px);" id="swiper-wrapper-8a1137b72d62187d" aria-live="polite">
               <div class="swiper-slide w-auto flex justify-center items-center px-4 swiper-slide-visible swiper-slide-fully-visible swiper-slide-active" role="group" aria-label="1 / 3" style="transition-duration: 0ms; z-index: 3; transform: translate3d(0px, 0px, 0px) rotateZ(0deg) scale(1);">
                 <img src="Portfolio%20-%20P%C3%A2tisserie_fichiers/JV-croquis0.jpg" alt="Gravure Fusée 1" class="h-full object-contain rounded-lg">
               </div>
@@ -514,8 +621,8 @@ pratiques du medium.</p>
               
             </div>
             <!-- Custom Arrows -->
-            <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-f5f7e59581df432e" aria-disabled="true"></div>
-            <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-f5f7e59581df432e" aria-disabled="false"></div>
+            <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-8a1137b72d62187d" aria-disabled="true"></div>
+            <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-8a1137b72d62187d" aria-disabled="false"></div>
           <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
         </div>
         <div class="text-lg lg:w-3/5 w-full">
@@ -570,15 +677,15 @@ quantités de chocolat dont nous avions besoin.</p>
         <div class="lg:w-1/2 w-full">
           <!-- Swiper -->
           <div class="swiper mySwiper max-w-[400px] h-[400px] rounded-lg relative swiper-cards swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress" style="--swiper-navigation-color: var(--color-orangeSoft);">
-            <div class="swiper-wrapper" style="transition-duration: 0ms; transition-delay: 0ms; transform: translateX(53.4335px);" id="swiper-wrapper-a881809becc54d6a" aria-live="polite">
+            <div class="swiper-wrapper" style="transition-duration: 0ms; transition-delay: 0ms; transform: translateX(53.4335px);" id="swiper-wrapper-251f5718014ddd44" aria-live="polite">
               <div class="swiper-slide w-auto flex justify-center items-center px-4 swiper-slide-visible swiper-slide-fully-visible swiper-slide-active" role="group" aria-label="1 / 1" style="transition-duration: 0ms; z-index: 1; transform: translate3d(0px, 0px, 0px) rotateZ(0deg) scale(1);">
                 <img src="Portfolio%20-%20P%C3%A2tisserie_fichiers/JV-tempereuse.webp" alt="Tempéreuse" class="h-full object-contain rounded-lg">
               </div>
               
             </div>
             <!-- Custom Arrows -->
-            <div class="swiper-button-prev text-orangeSoft swiper-button-disabled swiper-button-lock" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-a881809becc54d6a" aria-disabled="true"></div>
-            <div class="swiper-button-next text-orangeSoft swiper-button-disabled swiper-button-lock" tabindex="-1" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-a881809becc54d6a" aria-disabled="true"></div>
+            <div class="swiper-button-prev text-orangeSoft swiper-button-disabled swiper-button-lock" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-251f5718014ddd44" aria-disabled="true"></div>
+            <div class="swiper-button-next text-orangeSoft swiper-button-disabled swiper-button-lock" tabindex="-1" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-251f5718014ddd44" aria-disabled="true"></div>
           <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
         </div>
       </div>
@@ -589,7 +696,7 @@ quantités de chocolat dont nous avions besoin.</p>
         <div class="lg:w-2/5 w-full">
           <!-- Swiper -->
           <div class="swiper mySwiper max-w-[400px] h-[400px] rounded-lg relative swiper-cards swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress" style="--swiper-navigation-color: var(--color-orangeSoft);">
-            <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(-5.0085px);" id="swiper-wrapper-4aaae2642f4b10f4c" aria-live="polite">
+            <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(-5.0085px);" id="swiper-wrapper-610708b1ca101f65fb" aria-live="polite">
               <div class="swiper-slide w-auto flex justify-center items-center px-4 swiper-slide-visible swiper-slide-active" role="group" aria-label="1 / 3" style="transition-duration: 0ms; z-index: 3; transform: translate3d(0px, 0px, 0px) rotateZ(0deg) scale(1);">
                 <img src="Portfolio%20-%20P%C3%A2tisserie_fichiers/JV-moule.jpg" alt="moule" class="h-full object-contain rounded-lg">
               </div>
@@ -602,8 +709,8 @@ quantités de chocolat dont nous avions besoin.</p>
               
             </div>
             <!-- Custom Arrows -->
-            <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-4aaae2642f4b10f4c" aria-disabled="true"></div>
-            <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-4aaae2642f4b10f4c" aria-disabled="false"></div>
+            <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-610708b1ca101f65fb" aria-disabled="true"></div>
+            <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-610708b1ca101f65fb" aria-disabled="false"></div>
           <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
         </div>
         <div class="lg:w-3/5 w-full text-lg">
@@ -651,7 +758,7 @@ soutient notre comète et notre lune, il était impossible de réaliser une
         <div class="lg:w-1/2 w-full">
           <!-- Swiper -->
           <div class="swiper mySwiper max-w-[400px] h-[400px] rounded-lg relative swiper-cards swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress" style="--swiper-navigation-color: var(--color-orangeSoft);">
-            <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(23px);" id="swiper-wrapper-5bee41287bb9139c" aria-live="polite">
+            <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(23px);" id="swiper-wrapper-11710c4fb2a07c143" aria-live="polite">
               <div class="swiper-slide w-auto flex justify-center items-center px-4 swiper-slide-visible swiper-slide-fully-visible swiper-slide-active" role="group" aria-label="1 / 3" style="transition-duration: 0ms; z-index: 3; transform: translate3d(0px, 0px, 0px) rotateZ(0deg) scale(1);">
                 <img src="Portfolio%20-%20P%C3%A2tisserie_fichiers/JV-elance1.jpg" alt="Elancé moulage" class="h-full object-contain rounded-lg">
               </div>
@@ -664,8 +771,8 @@ soutient notre comète et notre lune, il était impossible de réaliser une
               
             </div>
             <!-- Custom Arrows -->
-            <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-5bee41287bb9139c" aria-disabled="true"></div>
-            <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-5bee41287bb9139c" aria-disabled="false"></div>
+            <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-11710c4fb2a07c143" aria-disabled="true"></div>
+            <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-11710c4fb2a07c143" aria-disabled="false"></div>
           <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
         </div>
       </div>
@@ -690,7 +797,7 @@ pour éviter les déformations.</p>
         <div class="lg:w-1/2 w-full">
           <!-- Swiper -->
           <div class="swiper mySwiper max-w-[400px] h-[400px] rounded-lg relative swiper-cards swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress" style="--swiper-navigation-color: var(--color-orangeSoft);">
-            <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(38.125px);" id="swiper-wrapper-36679c066cffd489" aria-live="polite">
+            <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(38.125px);" id="swiper-wrapper-a4ec1324f10680739" aria-live="polite">
               <div class="swiper-slide w-auto flex justify-center items-center px-4 swiper-slide-visible swiper-slide-fully-visible swiper-slide-active" role="group" aria-label="1 / 2" style="transition-duration: 0ms; z-index: 2; transform: translate3d(0px, 0px, 0px) rotateZ(0deg) scale(1);">
                 <img src="Portfolio%20-%20P%C3%A2tisserie_fichiers/JV-plaque.jpg" alt="Plaque de chocolat" class="h-full object-contain rounded-lg">
               </div>
@@ -700,8 +807,8 @@ pour éviter les déformations.</p>
               
             </div>
             <!-- Custom Arrows -->
-            <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-36679c066cffd489" aria-disabled="true"></div>
-            <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-36679c066cffd489" aria-disabled="false"></div>
+            <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-a4ec1324f10680739" aria-disabled="true"></div>
+            <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-a4ec1324f10680739" aria-disabled="false"></div>
           <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
         </div>
       </div>
@@ -724,7 +831,7 @@ sur notre Lune.</p>
         <div class="lg:w-1/2 w-full">
           <!-- Swiper -->
           <div class="swiper mySwiper max-w-[400px] h-[400px] rounded-lg relative swiper-cards swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress" style="--swiper-navigation-color: var(--color-orangeSoft);">
-            <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(23px);" id="swiper-wrapper-4e9aadd9d3b5df0b" aria-live="polite">
+            <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(23px);" id="swiper-wrapper-ff6e939a68aeb1d7" aria-live="polite">
               <div class="swiper-slide w-auto flex justify-center items-center px-4 swiper-slide-visible swiper-slide-fully-visible swiper-slide-active" role="group" aria-label="1 / 2" style="transition-duration: 0ms; z-index: 2; transform: translate3d(0px, 0px, 0px) rotateZ(0deg) scale(1);">
                 <img src="Portfolio%20-%20P%C3%A2tisserie_fichiers/JV-Lune1.jpg" alt="Nuages et flammes découpés" class="h-full object-contain rounded-lg">
               </div>
@@ -734,8 +841,8 @@ sur notre Lune.</p>
               
             </div>
             <!-- Custom Arrows -->
-            <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-4e9aadd9d3b5df0b" aria-disabled="true"></div>
-            <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-4e9aadd9d3b5df0b" aria-disabled="false"></div>
+            <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-ff6e939a68aeb1d7" aria-disabled="true"></div>
+            <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-ff6e939a68aeb1d7" aria-disabled="false"></div>
           <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
         </div>
       </div>
@@ -767,7 +874,7 @@ lourdes comme notre élancé.</p>
           <div class="lg:w-1/2 w-full">
             <!-- Swiper -->
             <div class="swiper mySwiper max-w-[400px] h-[400px] rounded-lg relative swiper-cards swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress" style="--swiper-navigation-color: var(--color-orangeSoft);">
-              <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(39.3335px);" id="swiper-wrapper-eb1b621502ec6b69" aria-live="polite">
+              <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(39.3335px);" id="swiper-wrapper-3bb745682586dc6d" aria-live="polite">
                 <div class="swiper-slide w-auto flex justify-center items-center px-4 swiper-slide-visible swiper-slide-fully-visible swiper-slide-active" role="group" aria-label="1 / 4" style="transition-duration: 0ms; z-index: 4; transform: translate3d(0px, 0px, 0px) rotateZ(0deg) scale(1);">
                   <img src="Portfolio%20-%20P%C3%A2tisserie_fichiers/JV-colEt1.jpg" alt="Nuages et flammes découpés" class="h-full object-contain rounded-lg">
                 </div>
@@ -782,8 +889,8 @@ lourdes comme notre élancé.</p>
                 </div>
               </div>
               <!-- Custom Arrows -->
-              <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-eb1b621502ec6b69" aria-disabled="true"></div>
-              <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-eb1b621502ec6b69" aria-disabled="false"></div>
+              <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-3bb745682586dc6d" aria-disabled="true"></div>
+              <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-3bb745682586dc6d" aria-disabled="false"></div>
             <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
           </div>
         </div>
@@ -798,7 +905,8 @@ lourdes comme notre élancé.</p>
         <div class="lg:w-1/3 w-full">
           <!-- Swiper -->
           <div class="swiper mySwiper max-w-[400px] h-[400px] rounded-lg relative swiper-cards swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress" style="--swiper-navigation-color: var(--color-orangeSoft);">
-            <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(-5.5165px);" id="swiper-wrapper-cbfc62bee79f373f" aria-live="polite">
+
+            <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(-5.5165px);" id="swiper-wrapper-8247a17f176c4369" aria-live="polite">
               <div class="swiper-slide w-auto flex justify-center items-center px-4 swiper-slide-visible swiper-slide-active" role="group" aria-label="1 / 2" style="transition-duration: 0ms; z-index: 2; transform: translate3d(0px, 0px, 0px) rotateZ(0deg) scale(1);">
                 <img src="Portfolio%20-%20P%C3%A2tisserie_fichiers/JV-cc1.jpg" alt="Nuages et flammes découpés" class="h-full object-contain rounded-lg">
               </div>
@@ -807,14 +915,15 @@ lourdes comme notre élancé.</p>
               </div>
             </div>
             <!-- Custom Arrows -->
-            <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-cbfc62bee79f373f" aria-disabled="true"></div>
-            <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-cbfc62bee79f373f" aria-disabled="false"></div>
+
+            <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-8247a17f176c4369" aria-disabled="true"></div>
+            <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-8247a17f176c4369" aria-disabled="false"></div>
           <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
         </div>
         <div class="lg:w-1/2 w-full">
           <!-- Swiper -->
           <div class="swiper mySwiper max-w-[600px] aspect-[4/3] rounded-lg relative swiper-cards swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress" style="--swiper-navigation-color: var(--color-orangeSoft);">
-            <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(-18.7085px);" id="swiper-wrapper-9ca89fe7a4b5c06e" aria-live="polite">
+            <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(-18.7085px);" id="swiper-wrapper-41782381382bc044" aria-live="polite">
               <div class="swiper-slide flex justify-center items-center swiper-slide-visible swiper-slide-active" role="group" aria-label="1 / 2" style="transition-duration: 0ms; z-index: 2; transform: translate3d(0px, 0px, 0px) rotateZ(0deg) scale(1);">
                 <img src="Portfolio%20-%20P%C3%A2tisserie_fichiers/JV-cc2.jpg" alt="Nuages et flammes découpés" class="w-full h-full object-contain p-4 rounded-lg">
               </div>
@@ -823,8 +932,9 @@ lourdes comme notre élancé.</p>
               </div>
             </div>
             <!-- Custom Arrows -->
-            <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-9ca89fe7a4b5c06e" aria-disabled="true"></div>
-            <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-9ca89fe7a4b5c06e" aria-disabled="false"></div>
+
+            <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-41782381382bc044" aria-disabled="true"></div>
+            <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-41782381382bc044" aria-disabled="false"></div>
           <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>          
         </div>
       </div>
@@ -1120,7 +1230,7 @@ sucre, puis ajouter le mélange pectiné, et mélanger jusqu'à
         <!-- Footer notes -->
         <div class="mt-2 text-sm text-mygrey space-y-1">
           <p><strong>Allergènes :</strong> Œufs, Lait, Gluten</p>
-          <p><strong>Conservation :</strong> 48 h à +4 °C après refroidissement rapide</p>
+          <p><strong>Conservation :</strong> 48 h à température ambiante</p>
         </div>
       </div>
       <div class="max-w-4xl mx-auto px-8 py-4 mt-8 mb-8 bg-cream rounded-lg">
@@ -1229,7 +1339,7 @@ vente au détail ou préconditionnés. </p>
         <div class="lg:w-2/5 w-full">
           <!-- Swiper -->
           <div class="swiper mySwiper max-w-[600px] h-[400px] rounded-lg relative swiper-cards swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress" style="--swiper-navigation-color: var(--color-orangeSoft);">
-            <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(26.4px);" id="swiper-wrapper-801ee9c1a27d1571" aria-live="polite">
+            <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(26.4px);" id="swiper-wrapper-1f340c94dd74d1041" aria-live="polite">
               <div class="swiper-slide flex justify-center items-center swiper-slide-visible swiper-slide-fully-visible swiper-slide-active" role="group" aria-label="1 / 2" style="transition-duration: 0ms; z-index: 2; transform: translate3d(0px, 0px, 0px) rotateZ(0deg) scale(1);">
                 <img src="Portfolio%20-%20P%C3%A2tisserie_fichiers/NL-bonbon1.jpg" alt="Bonbons en chocolats" class="w-full h-full object-contain p-4 rounded-lg">
               </div>
@@ -1238,8 +1348,8 @@ vente au détail ou préconditionnés. </p>
               </div>
             </div>
             <!-- Custom Arrows -->
-            <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-801ee9c1a27d1571" aria-disabled="true"></div>
-            <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-801ee9c1a27d1571" aria-disabled="false"></div>
+            <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-1f340c94dd74d1041" aria-disabled="true"></div>
+            <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-1f340c94dd74d1041" aria-disabled="false"></div>
           <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>          
         </div>
       </div>   
@@ -1254,7 +1364,7 @@ et attirer l'oeil.</p>
       <div class=" w-full flex justify-center">
         <!-- Swiper -->
         <div class="swiper mySwiper max-w-[400px] h-[400px] rounded-lg relative swiper-cards swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress" style="--swiper-navigation-color: var(--color-orangeSoft);">
-          <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(-61.3915px);" id="swiper-wrapper-2dc5054bf372eae3" aria-live="polite">
+          <div class="swiper-wrapper" style="cursor: grab; transition-duration: 0ms; transition-delay: 0ms; transform: translateX(-61.3915px);" id="swiper-wrapper-ee6e6ec1f6106d2bf" aria-live="polite">
             <div class="swiper-slide flex justify-center items-center swiper-slide-visible swiper-slide-active" role="group" aria-label="1 / 2" style="transition-duration: 0ms; z-index: 2; transform: translate3d(0px, 0px, 0px) rotateZ(0deg) scale(1);">
               <img src="Portfolio%20-%20P%C3%A2tisserie_fichiers/NL-buc1.jpg" alt="Bonbons en chocolats" class="w-full h-full object-contain p-4 rounded-lg">
             </div>
@@ -1263,8 +1373,8 @@ et attirer l'oeil.</p>
             </div>
           </div>
           <!-- Custom Arrows -->
-          <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-2dc5054bf372eae3" aria-disabled="true"></div>
-          <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-2dc5054bf372eae3" aria-disabled="false"></div>
+          <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-ee6e6ec1f6106d2bf" aria-disabled="true"></div>
+          <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-ee6e6ec1f6106d2bf" aria-disabled="false"></div>
         <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>          
       </div>
       <p class="text-lg">Après avoir réalisé ces deux clichés en classe 
@@ -1273,7 +1383,7 @@ apprises en cours pour ma bûche.</p>
       <div class=" w-full flex justify-center">
         <!-- Swiper -->
         <div class="swiper mySwiper max-w-[400px] h-[400px] rounded-lg relative swiper-cards swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress" style="--swiper-navigation-color: var(--color-orangeSoft);">
-          <div class="swiper-wrapper" style="cursor: grab; transform: translateX(0px);" id="swiper-wrapper-e810f10f10e7ad97d08" aria-live="polite">
+          <div class="swiper-wrapper" style="cursor: grab; transform: translateX(0px);" id="swiper-wrapper-7e8f8b5234b6f1097" aria-live="polite">
             <div class="swiper-slide flex justify-center items-center swiper-slide-visible swiper-slide-fully-visible swiper-slide-active" role="group" aria-label="1 / 2" style="z-index: 2; transform: translate3d(0px, 0px, 0px) rotateZ(0deg) scale(1);">
               <img src="Portfolio%20-%20P%C3%A2tisserie_fichiers/NL-mb1.jpg" alt="Bonbons en chocolats" class="w-full h-full object-contain p-4 rounded-lg">
             </div>
@@ -1282,8 +1392,8 @@ apprises en cours pour ma bûche.</p>
             </div>
           </div>
           <!-- Custom Arrows -->
-          <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-e810f10f10e7ad97d08" aria-disabled="true"></div>
-          <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-e810f10f10e7ad97d08" aria-disabled="false"></div>
+          <div class="swiper-button-prev text-orangeSoft swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-7e8f8b5234b6f1097" aria-disabled="true"></div>
+          <div class="swiper-button-next text-orangeSoft" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-7e8f8b5234b6f1097" aria-disabled="false"></div>
         <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>          
       </div>
       <h3 class="text-xl font-semibold pl-8 pt-4 mb-4">Conclusion</h3>
@@ -1308,10 +1418,302 @@ notamment pour assurer des ventes additionnelles.</p>
       <span class="w-3 h-3 bg-rose rounded-full"></span>
       <span class="w-3 h-3 bg-mint rounded-full"></span>
     </div>
-
-    <section id="theme3" class="max-w-4xl mx-auto px-4">
+    <section id="theme3" class="max-w-4xl mx-auto px-4 text-justify">
       <h2 class="text-2xl font-semibold mb-4 text-mint" style="font-family: var(--font-playfair);">Theme 3: Création d'un entremet</h2>
-      <p class="text-lg">[Theme description]</p>
+<p class="text-lg">Mise en situation : Dans le cadre d’un échange 
+Erasmus, créez un entremet avec des produits locaux afin de faire 
+découvrir gustativement votre région à des étudiants étrangers. J’ai 
+décidé d’allier dans mon entremet le côté fruité et acidulé de la pêche 
+de vigne à la douceur de la mélisse.
+</p>
+<div class="flex flex-col lg:flex-row gap-8 items-center mt-4 py-4">
+        <p class="lg:w-3/5 w-full text-lg">
+ La pêche de vigne est un produit typique des coteaux du lyonnais, où 
+traditionnellement des pêchers particulièrement sensibles aux maladies 
+étaient plantés au milieu des vignes pour alerter les viticulteurs. 
+Cette espèce particulière, dont le fruit est notable pour sa chair rosée
+ et son goût acidulé, est depuis cultivée dans la région.</p>
+	<img src="Portfolio%20-%20P%C3%A2tisserie_fichiers/peche.jpg" alt="Pèche de vigne" class="h-full object-contain rounded-lg lg:w-2/5 w-3/5">
+</div>
+
+<div class="flex flex-col lg:flex-row lg:flex-row-reverse gap-8 items-center mt-4 py-4">
+        <p class="lg:w-3/5 w-full text-lg">La mélisse quant à elle est 
+une herbe aromatique commune du bassin méditerrannien habituellement 
+utilisée en tisane ou pour aromatiser les plats. Elle est cultivée en 
+Haute-Loire où les sols argileux favorisent sa croissance. </p>
+	<img src="Portfolio%20-%20P%C3%A2tisserie_fichiers/melisse.jpg" alt="Mélisse" class="h-full object-contain rounded-lg lg:w-2/5 w-3/5">
+</div>
+
+		<p class="text-lg">En objectif secondaire, j’ai voulu réaliser un 
+entremet pouvant être inclus à la gamme de Chez Grégoire, et donc 
+nécessairement sans gluten et sans lactose. J’ai donc dû adapter mes 
+recettes pour éviter l’utilisation du beurre, du lait, de la crème et de
+ la farine de blé.</p>
+      <h3 class="text-xl font-semibold pl-8 pt-4 mb-4">Recettes</h3>
+	<p class="text-lg">[Theme description]</p>
+	<div class="max-w-4xl mx-auto px-8 py-4 mt-8 mb-8 bg-cream rounded-lg">
+        <!-- Title -->
+        <h3 class="text-2xl font-playfair text-dbrown bg-cream p-2 rounded mb-2 text-center">
+          Recette : Crumble
+        </h3>
+        <div class="flex flex-col lg:flex-row gap-8 items-start mt-2 py-4 border-b border-dbrown">
+          <!-- Ingredients -->
+          <div class="lg:w-2/5 w-full">
+            <table class="w-full">
+              <tbody>
+                <tr><td class="text-lg">Margarine Végétale</td><td class="text-lg text-right">100 g</td></tr>
+                <tr><td class="text-lg">Farine de riz</td><td class="text-lg text-right">100 g</td></tr>
+                <tr><td class="text-lg">Sucre</td><td class="text-lg text-right">100 g</td></tr>
+                <tr><td class="text-lg">Poudre d’amande</td><td class="text-lg text-right">100 g</td></tr>
+                <tr><td class="text-lg">Sel</td><td class="text-lg text-right">2 g</td></tr>
+                <tr><td class="text-lg font-semibold">Poids total</td><td class="text-lg text-right font-semibold">402 g</td></tr>
+              </tbody>
+            </table>
+          </div>
+        
+          <!-- Separator -->
+          <div class="w-full h-px bg-dbrown lg:w-px lg:h-auto lg:self-stretch lg:mx-2 bg-dbrown"></div>    
+          <!-- Instructions -->
+          <div class="text-lg space-y-2 lg:w-3/5 w-full">
+            <ul class="list-disc list-inside">
+              <li>Mélanger tous les ingrédients jusqu’à obtention d’une texture sableuse homogène.</li>
+              <li>Émietter sur une plaque et cuire à 160 °C jusqu’à coloration dorée.</li>
+              <li>Laisser refroidir avant utilisation.</li>
+            </ul>
+          </div>
+        </div>
+      <!-- Footer notes -->
+        <div class="mt-2 text-sm text-mygrey space-y-1">
+          <p><strong>Allergènes :</strong> Fruits à coque (amandes)</p>
+          <p><strong>Conservation :</strong> 5 jours dans un récipient hermétique à température ambiante</p>
+        </div>
+      </div>
+<div class="max-w-4xl mx-auto px-8 py-4 mt-8 mb-8 bg-cream rounded-lg">
+        <!-- Title -->
+        <h3 class="text-2xl font-playfair text-dbrown bg-cream p-2 rounded mb-2 text-center">
+          Recette : Croustillant
+        </h3>
+        <div class="flex flex-col lg:flex-row gap-8 items-start mt-2 py-4 border-b border-dbrown">
+          <!-- Ingredients -->
+          <div class="lg:w-2/5 w-full">
+            <table class="w-full">
+              <tbody>
+                <tr><td class="text-lg">Crumble</td><td class="text-lg text-right">400 g</td></tr>
+                <tr><td class="text-lg">Amandes torréfiées</td><td class="text-lg text-right">100 g</td></tr>
+                <tr><td class="text-lg">Beurre</td><td class="text-lg text-right">100 g</td></tr>
+                <tr><td class="text-lg font-semibold">Poids total</td><td class="text-lg text-right font-semibold">600 g</td></tr>
+              </tbody>
+            </table>
+          </div>
+        
+          <!-- Separator -->
+          <div class="w-full h-px bg-dbrown lg:w-px lg:h-auto lg:self-stretch lg:mx-2 bg-dbrown"></div>    
+          <!-- Instructions -->
+          <div class="text-lg space-y-2 lg:w-3/5 w-full">
+            <ul class="list-disc list-inside">
+              <li>Faire fondre le beurre doucement.</li>
+              <li>Ajouter le crumble et les amandes torréfiées concassées.</li>
+              <li>Bien mélanger, puis étaler et tasser dans un cercle ou un fond de moule.</li>
+            </ul>
+          </div>
+        </div>
+      <!-- Footer notes -->
+        <div class="mt-2 text-sm text-mygrey space-y-1">
+          <p><strong>Allergènes :</strong> Fruits à coque (amandes)</p>
+          <p><strong>Conservation :</strong> 5 jours au réfrigérateur dans un contenant hermétique</p>
+        </div>
+      </div>
+<div class="max-w-4xl mx-auto px-8 py-4 mt-8 mb-8 bg-cream rounded-lg">
+        <!-- Title -->
+        <h3 class="text-2xl font-playfair text-dbrown bg-cream p-2 rounded mb-2 text-center">
+          Recette : Biscuit Madeleine
+        </h3>
+        <div class="flex flex-col lg:flex-row gap-8 items-start mt-2 py-4 border-b border-dbrown">
+          <!-- Ingredients -->
+          <div class="lg:w-2/5 w-full">
+            <table class="w-full">
+              <tbody>
+                <tr><td class="text-lg">Sucre</td><td class="text-lg text-right">180 g</td></tr>
+                <tr><td class="text-lg">Farine de riz</td><td class="text-lg text-right">243 g</td></tr>
+                <tr><td class="text-lg">Œufs</td><td class="text-lg text-right">268 g</td></tr>
+                <tr><td class="text-lg">Margarine végétale</td><td class="text-lg text-right">243 g</td></tr>
+                <tr><td class="text-lg">Levure chimique</td><td class="text-lg text-right">5 g</td></tr>
+                <tr><td class="text-lg">Zeste</td><td class="text-lg text-right">1</td></tr>
+                <tr><td class="text-lg font-semibold">Poids total</td><td class="text-lg text-right font-semibold">1003 g</td></tr>
+              </tbody>
+            </table>
+          </div>
+        
+          <!-- Separator -->
+          <div class="w-full h-px bg-dbrown lg:w-px lg:h-auto lg:self-stretch lg:mx-2 bg-dbrown"></div>    
+          <!-- Instructions -->
+          <div class="text-lg space-y-2 lg:w-3/5 w-full">
+            
+            <ul class="list-disc list-inside">
+              <li>Faire fondre la margarine végétale.</li>
+              <li>Faire mousser les œufs et le sucre, puis rajouter la farine tamisée avec la levure chimique.</li>
+              <li>Incorporer la margarine fondue et les zestes de citron.</li>
+              <li>Cuire sur plaque 12 minutes à 145°C. Le biscuit doit être doré et moelleux.</li>
+              <li>À la sortie du four, détourner sur grille pour que le biscuit regagne en humidité.</li>
+            </ul>
+          </div>
+        </div>
+      <!-- Footer notes -->
+        <div class="mt-2 text-sm text-mygrey space-y-1">
+          <p><strong>Allergènes :</strong> Œufs</p>
+          <p><strong>Conservation :</strong> 3 jours à température ambiante</p>
+        </div>
+      </div>
+<div class="max-w-4xl mx-auto px-8 py-4 mt-8 mb-8 bg-cream rounded-lg">
+        <!-- Title -->
+        <h3 class="text-2xl font-playfair text-dbrown bg-cream p-2 rounded mb-2 text-center">
+          Recette : Sirop d’imbibage
+        </h3>
+        <div class="flex flex-col lg:flex-row gap-8 items-start mt-2 py-4 border-b border-dbrown">
+          <!-- Ingredients -->
+          <div class="lg:w-2/5 w-full">
+            <table class="w-full">
+              <tbody>
+                <tr><td class="text-lg">Eau</td><td class="text-lg text-right">100 g</td></tr>
+                <tr><td class="text-lg">Mélisse</td><td class="text-lg text-right">5 g</td></tr>
+                <tr><td class="text-lg">Sucre</td><td class="text-lg text-right">80 g</td></tr>
+                <tr><td class="text-lg font-semibold">Poids total</td><td class="text-lg text-right font-semibold">185 g</td></tr>
+              </tbody>
+            </table>
+          </div>
+        
+          <!-- Separator -->
+          <div class="w-full h-px bg-dbrown lg:w-px lg:h-auto lg:self-stretch lg:mx-2 bg-dbrown"></div>    
+          <!-- Instructions -->
+          <div class="text-lg space-y-2 lg:w-3/5 w-full">
+            <ul class="list-disc list-inside">
+              <li>Porter l’eau, le sucre et la mélisse à ébullition.</li>
+              <li>Laisser infuser hors du feu pendant 10 minutes.</li>
+              <li>Filtrer et réserver au frais.</li>
+            </ul>
+          </div>
+        </div>
+      <!-- Footer notes -->
+        <div class="mt-2 text-sm text-mygrey space-y-1">
+          <p><strong>Allergènes :</strong> Aucun</p>
+          <p><strong>Conservation :</strong> 7 jours à +4 °C</p>
+        </div>
+      </div>
+<div class="max-w-4xl mx-auto px-8 py-4 mt-8 mb-8 bg-cream rounded-lg">
+        <!-- Title -->
+        <h3 class="text-2xl font-playfair text-dbrown bg-cream p-2 rounded mb-2 text-center">
+          Recette : Mousse Mélisse
+        </h3>
+        <div class="flex flex-col lg:flex-row gap-8 items-start mt-2 py-4 border-b border-dbrown">
+          <!-- Ingredients -->
+          <div class="lg:w-2/5 w-full">
+            <table class="w-full">
+              <tbody>
+                <tr><td class="text-lg">Lait</td><td class="text-lg text-right">320 g</td></tr>
+                <tr><td class="text-lg">Mélisse</td><td class="text-lg text-right">10 g</td></tr>
+                <tr><td class="text-lg">Gélatine</td><td class="text-lg text-right">13 g</td></tr>
+                <tr><td class="text-lg">Jaune</td><td class="text-lg text-right">80 g</td></tr>
+                <tr><td class="text-lg">Sucre</td><td class="text-lg text-right">40 g</td></tr>
+                <tr><td class="text-lg">Crème montée</td><td class="text-lg text-right">320 g</td></tr>
+                <tr><td class="text-lg font-semibold">Poids total</td><td class="text-lg text-right font-semibold">783 g</td></tr>
+              </tbody>
+            </table>
+          </div>
+        
+          <!-- Separator -->
+          <div class="w-full h-px bg-dbrown lg:w-px lg:h-auto lg:self-stretch lg:mx-2 bg-dbrown"></div>    
+          <!-- Instructions -->
+          <div class="text-lg space-y-2 lg:w-3/5 w-full">
+            <ul class="list-disc list-inside">
+              <li>Infuser la mélisse dans le lait chaud puis chinoiser.</li>
+              <li>Réaliser une crème anglaise avec les jaunes, le sucre et le lait infusé.</li>
+              <li>Ajouter la gélatine hydratée, refroidir à 30 °C puis incorporer la crème montée.</li>
+            </ul>
+          </div>
+        </div>
+      <!-- Footer notes -->
+        <div class="mt-2 text-sm text-mygrey space-y-1">
+          <p><strong>Allergènes :</strong> Œufs</p>
+          <p><strong>Conservation :</strong> 48 h à +4 °C après montage</p>
+	</div>
+	</div>
+
+<div class="max-w-4xl mx-auto px-8 py-4 mt-8 mb-8 bg-cream rounded-lg">
+        <!-- Title -->
+        <h3 class="text-2xl font-playfair text-dbrown bg-cream p-2 rounded mb-2 text-center">
+          Recette : Compotée Pêche de Vigne
+        </h3>
+        <div class="flex flex-col lg:flex-row gap-8 items-start mt-2 py-4 border-b border-dbrown">
+          <!-- Ingredients -->
+          <div class="lg:w-2/5 w-full">
+            <table class="w-full">
+              <tbody>
+                <tr><td class="text-lg">Pêche IQF</td><td class="text-lg text-right">250 g</td></tr>
+                <tr><td class="text-lg">Purée de pêche de vigne</td><td class="text-lg text-right">250 g</td></tr>
+                <tr><td class="text-lg">Purée de citron vert</td><td class="text-lg text-right">20 g</td></tr>
+                <tr><td class="text-lg">Sucre</td><td class="text-lg text-right">60 g</td></tr>
+                <tr><td class="text-lg">Pectine</td><td class="text-lg text-right">8 g</td></tr>
+                <tr><td class="text-lg font-semibold">Poids total</td><td class="text-lg text-right font-semibold">588 g</td></tr>
+              </tbody>
+            </table>
+          </div>
+        
+          <!-- Separator -->
+          <div class="w-full h-px bg-dbrown lg:w-px lg:h-auto lg:self-stretch lg:mx-2 bg-dbrown"></div>    
+          <!-- Instructions -->
+          <div class="text-lg space-y-2 lg:w-3/5 w-full">
+            <ul class="list-disc list-inside">
+              <li>Faire chauffer les pêches IQF avec les purées et le sucre.</li>
+              <li>Ajouter la pectine mélangée à une partie du sucre en pluie dès 40 °C.</li>
+              <li>Porter à ébullition, cuire 2 minutes en remuant.</li>
+              <li>Refroidir rapidement puis réserver au frais.</li>
+            </ul>
+          </div>
+        </div>
+      <!-- Footer notes -->
+        <div class="mt-2 text-sm text-mygrey space-y-1">
+          <p><strong>Allergènes :</strong> Aucun</p>
+          <p><strong>Conservation :</strong> 5 jours à +4 °C</p>
+        </div>
+      </div>
+<div class="max-w-4xl mx-auto px-8 py-4 mt-8 mb-8 bg-cream rounded-lg">
+        <!-- Title -->
+        <h3 class="text-2xl font-playfair text-dbrown bg-cream p-2 rounded mb-2 text-center">
+          Recette : Glaçage Pêche de Vigne
+        </h3>
+        <div class="flex flex-col lg:flex-row gap-8 items-start mt-2 py-4 border-b border-dbrown">
+          <!-- Ingredients -->
+          <div class="lg:w-2/5 w-full">
+            <table class="w-full">
+              <tbody>
+                <tr><td class="text-lg">Purée de Pêche</td><td class="text-lg text-right">340 g</td></tr>
+                <tr><td class="text-lg">Glaçage Neutre</td><td class="text-lg text-right">500 g</td></tr>
+                <tr><td class="text-lg">Pectine</td><td class="text-lg text-right">6 g</td></tr>
+                <tr><td class="text-lg font-semibold">Poids total</td><td class="text-lg text-right font-semibold">846 g</td></tr>
+              </tbody>
+            </table>
+          </div>
+        
+          <!-- Separator -->
+          <div class="w-full h-px bg-dbrown lg:w-px lg:h-auto lg:self-stretch lg:mx-2 bg-dbrown"></div>    
+          <!-- Instructions -->
+          <div class="text-lg space-y-2 lg:w-3/5 w-full">
+            <ul class="list-disc list-inside">
+              <li>Chauffer la purée à 40 °C puis incorporer la pectine.</li>
+              <li>Porter à ébullition en remuant.</li>
+              <li>Incorporer le glaçage neutre, mixer puis réserver.</li>
+            </ul>
+          </div>
+        </div>
+      <!-- Footer notes -->
+        <div class="mt-2 text-sm text-mygrey space-y-1">
+          <p><strong>Allergènes :</strong> Aucun</p>
+          <p><strong>Conservation :</strong> 5 jours à +4 °C</p>
+        </div>
+      </div>
+	<h3 class="text-xl font-semibold pl-8 pt-4 mb-4">Procédés</h3>
+	<p>Le glaçage, le biscuit et l'insert doivent être réalisés à l'avance.
+ Ces deux derniers doivent être congelés pour faciliter le montage. </p>
     </section>
     
     <!-- Sep -->
@@ -1380,5 +1782,4 @@ Pâtisserie <cite class="text-rose">Nathan Bouchut</cite>, ma professeure d'art 
   slidesPerView: 'auto' // ✅ important
 });
 </script>
-
 </body><!-- Swiper JS --></html>

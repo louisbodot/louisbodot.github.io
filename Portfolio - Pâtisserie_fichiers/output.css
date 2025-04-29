@@ -265,6 +265,9 @@
   .w-3 {
     width: calc(var(--spacing) * 3);
   }
+  .w-3\/5 {
+    width: calc(3/5 * 100%);
+  }
   .w-auto {
     width: auto;
   }
@@ -461,10 +464,6 @@
   .text-2xl {
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
-  }
-  .text-3xl {
-    font-size: var(--text-3xl);
-    line-height: var(--tw-leading, var(--text-3xl--line-height));
   }
   .text-4xl {
     font-size: var(--text-4xl);
