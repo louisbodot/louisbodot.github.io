@@ -761,7 +761,7 @@
 }
 @layer utilities {
   .swiper-slide {
-    width: auto !important;
+    width: 100% !important;
   }
 }
 @property --tw-rotate-x {
